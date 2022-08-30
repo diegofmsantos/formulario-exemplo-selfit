@@ -74,11 +74,13 @@ legend {
 @media screen and (max-width: 540px) {
 
     #container {
-        width: 300px;
+        width: 310px;
+        height: auto;
     }
 
     .pessoal {
-        width: 250px;
+        width: 280px;
+        height: auto;
     }
 }
 
