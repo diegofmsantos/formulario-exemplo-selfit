@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Cadastro Selfit</h1>
+            <form method="get">
+                <fieldset class="pessoal">
+                    <legend>Dados Pessoais</legend>
+                        <label for="nomecompleto">Nome Completo:
+                            <input type="text" name="nomecompleto" id="nomecompleto" autocomplete="on" size="30" placeholder="Digite seu nome completo" required>
+                        </label>
+
+                        <label for="cpf">CPF:
+                            <input type="number" name="cpf" id="cpf" size="10" placeholder="Digite seu CPF" required>
+                        </label>
+
+                        <label for="sexo">Sexo:
+                            <input type="radio" name="sexo" id="sexofem" checked> <label for="sexomasc">Masculino</label>
+                            <input type="radio" name="sexo" id="sexomasc"> <label for="sexofem">Feminino</label>
+                        </label>
+
+                        <label for="nascimento">Data de Nascimento:
+                            <input type="date" name="nascimento" id="nascimento" required>
+                        </label>
+
+                        <label for="endereço">Endereço:
+                            <input type="text" name="endereço" id="endereço" autocomplete="on" size="35" placeholder="Digite seu endereço" required>
+                        </label>
+
+                        <label for="numero">Nº:
+                            <input type="text" name="numero" id="numero" size="5" required>
+                        </label>
+
+                        <label for="bairro">Bairro:
+                            <input type="text" name="bairro" id="bairro" size="20" placeholder="Digite o nome do seu bairro" required>
+                        </label>
+
+                        <label for="complemento">Complemento:
+                            <input type="text" name="complemento" id="complemento" size="8" placeholder="casa/apt" required>
+                        </label>
+
+                         <label for="cidade">Cidade:
+                            <input type="text" name="cidade" id="cidade" size="21" placeholder="Digite o nome da sua cidade" required>
+                        </label>
+                    
+                         <label for="celular">Celular:
+                            <input type="tel" name="celular" id="celular" size="15" placeholder="(xx) xxxxx-xxxx" required>
+                          </label>
+
+                         <label for="email">E-mail:
+                            <input type="email" name="email" id="email" autocomplete="on" size="30" placeholder="nome@email.com" required>
+                        </label>
+                </fieldset>
+                        <input class="btn" type="submit" value="Enviar">
+            </form>
+    </div>
+</body>
+</html>

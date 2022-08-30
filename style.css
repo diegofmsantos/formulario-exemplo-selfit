@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    background-image: url(imagens/selfit-fachada.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: arial;
+    overflow: hidden;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#container {
+    width: 450px;
+    height: 610px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.596), rgba(92, 9, 9, 0.418));
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+
+#container h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    color: white;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.pessoal {
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(240, 16, 16, 0.678);
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.555);
+    margin: auto;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgba(240, 16, 16, 0.781);
+    box-shadow: 2px 2px 5px rgba(240, 16, 16, 0.678);
+}
+
+@media screen and (max-width: 540px) {
+
+    .nomecompleto {
+        size: 5;
+    }
+}
+
+
