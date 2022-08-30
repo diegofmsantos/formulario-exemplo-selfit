@@ -73,8 +73,12 @@ legend {
 
 @media screen and (max-width: 540px) {
 
-    .nomecompleto {
-        size: 5;
+    #container {
+        width: 300px;
+    }
+
+    .pessoal {
+        width: 250px;
     }
 }
 
